@@ -1,0 +1,260 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* EIGEN CSS */
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f5f8fb !important;
+    color: #424242;
+}
+
+.huis {
+    position: relative;
+    margin-top: 20px;
+    padding: 50px 25px;
+    text-align: center; 
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(1,68,92,.06);
+    background: url(../img/huis1.jpg) no-repeat center center; 
+    height: 280px;
+}
+
+.col-md-4 {
+    background-color: red;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-shadow: 0 2px 0 rgba(1,68,92,.06);
+}
+
+.wanneer {
+    background-color: #ffc63b;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    font-size: 0.9em;
+    line-height: 1.5;
+    padding: .0625rem .5rem;
+    border-radius: .1875rem;
+    font-weight: 400;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 0.3em;
+    right: 0em;
+    font-size: 1.3em;
+    line-height: 1.5;
+    padding: .0625rem .5rem;
+    border-radius: .1875rem;
+    font-weight: 400;
+}
+.prijs {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: block;
+    position: absolute;
+    bottom: 0.3em;
+    left: 0em;
+    font-size: 1.3em;
+    line-height: 1.5;
+    padding: .0625rem .5rem;
+    border-radius: .1875rem;
+    font-weight: 400;
+}
+
+.grootte {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: block;
+    position: absolute;
+    bottom: 0.3em;
+    right: 0em;
+    font-size: 1.3em;
+    line-height: 1.5;
+    padding: .0625rem .5rem;
+    border-radius: .1875rem;
+    font-weight: 400;
+}
+
+.waar {
+    padding: .5rem;
+    background-color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #0c9dd0;
+}
+
+.waar p {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #616161;
+}
+
+/* BUTTON https://codepen.io/imprakash/pen/GgNMXO */
+
+.fa-info-circle:before {
+    content: "\f05a";
+    color: white;
+}
+
+.button {
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 85%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: black;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}

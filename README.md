@@ -1,7 +1,8 @@
 # FRONT END VOOR DESIGNERS
 
 ### OPDRACHT 1
-Opdracht 1 is een pagina waarop je verschillende kamers kan zien die te huur zijn. Het ontwerp is voor mobiel.
+> Opdracht 1 is een pagina waarop je verschillende kamers kan zien die te huur zijn. Het ontwerp is voor mobiel.
+
 [Versie 1](https://royhaarlem.github.io/FEVD/opdracht1/v1/)
 [Versie 2](https://royhaarlem.github.io/FEVD/opdracht1/v2/)
 [Versie 3](https://royhaarlem.github.io/FEVD/opdracht1/v3/)

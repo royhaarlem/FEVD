@@ -10,6 +10,8 @@
 ### OPDRACHT 2
 
 ### OPDRACHT 3
+> Opdracht 3 is een pagina waar door middel van een json file data wordt getoond op de website. De website is gemaakt voor mobiel maar zou op tabblet ook niet slecht moeten zijn.
+
 [Versie 1](https://royhaarlem.github.io/FEVD/opdracht3/v1/)
 [Versie 2](https://royhaarlem.github.io/FEVD/opdracht3/v2/)
 [Versie 3](https://royhaarlem.github.io/FEVD/opdracht3/v3/)

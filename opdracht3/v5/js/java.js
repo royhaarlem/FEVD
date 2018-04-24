@@ -1,6 +1,6 @@
 var section = document.querySelector('section');
 
-var dataurl = 'https://www.royveenendaal.com/fevd/datab.json';
+var dataurl = 'https://royhaarlem.github.io/FEVD/datab.json';
 console.log("dataurl: "+ dataurl);
 
 var datarequest = new XMLHttpRequest();

@@ -1,6 +1,6 @@
 var section = document.querySelector('section');
 
-var dataurl = 'http://dennistel.nl/movies';
+var dataurl = 'https://royhaarlem.github.io/FEVD/datab.json';
 console.log("dataurl: "+ dataurl);
 
 var datarequest = new XMLHttpRequest();

@@ -6,245 +6,319 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
 
 body {
-    line-height:1;
+	line-height: 1;
+	max-width: 25em;
+	margin: 0 auto;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-    display:block;
+html {
+	background-color: grey;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
 }
 
 nav ul {
-    list-style:none;
+	list-style: none;
 }
 
-blockquote, q {
-    quotes:none;
+blockquote,
+q {
+	quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
 }
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
 }
 
 del {
-    text-decoration: line-through;
+	text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
+abbr[title],
+dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
 }
 
 table {
-    border-collapse:collapse;
-    border-spacing:0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
-input, select {
-    vertical-align:middle;
+input,
+select {
+	vertical-align: middle;
 }
 
 /* EIGEN CSS */
-body{
-    background-color: #f4f6f6 ;
-    width:100%;
-    font-family: 'Roboto', sans-serif;
+body {
+	background-color: #f4f6f6;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 
 .verborgen {
-    width: 150vw;
-    background-color:red;
-    height: 150px;
+	width: 150vw;
+	background-color: red;
+	height: 150px;
 }
 
 .more {
-    float: right;
-    width: 80px;
-    height: 100%;
-    background-color: black;
-    color: white;
+	float: right;
+	width: 80px;
+	height: 100%;
+	background-color: black;
+	color: white;
 }
 
 .more ul li {
-    list-style-type: none;
-    font-size: 1em;
-    margin: 1em;
+	list-style-type: none;
+	font-size: 1em;
+	margin: 1em;
 }
 
 .more ul {
-    margin: 1em;
+	margin: 1em;
 }
 
 header {
-    background: white;
-    margin-bottom: 2em;
-    height: 60px;
-    box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
-    width: 100%;
+	background: white;
+	margin-bottom: 2em;
+	height: 60px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+	width: 100%;
 }
 
 header img {
-    width: 30px;
-    margin-top: 20px;
+	width: 30px;
+	margin-top: 20px;
 }
 
 .menu {
-display:inline-block;
-margin-left: 1em;
+	display: inline-block;
+	margin-left: 1em;
 }
 
 .logo {
-display:inline-block;
-    margin-left: 35%;
+	display: inline-block;
+	margin-left: 35%;
 }
 
 
 .search {
-display:inline-block;
-float: right;
-    margin-right: 1em;
+	display: inline-block;
+	float: right;
+	margin-right: 1em;
 }
 
 h2 {
-    color: black;
-    font-weight: 500;
-    font-size: 17px;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    margin-bottom: 0.5em;
-    position: relative;
-    padding-top: 2em;
-    left: 40px;
-    text-align: left;
+	color: black;
+	font-weight: 500;
+	font-size: 17px;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	margin-bottom: 0.5em;
+	position: relative;
+	padding-top: 2em;
+	left: 40px;
+	text-align: left;
 }
 
 h3 {
-    color: black;
-    font-weight: 300;
-    font-size: 15px;
-    word-wrap: break-word;
-    margin-bottom: 0.5em;
-    position: relative;
-    padding-top: 1em;
-    margin-left: 196px;
-    text-align: left;
-    overflow: hidden;
-    height: 91px;
+	color: black;
+	font-weight: 300;
+	font-size: 15px;
+	word-wrap: break-word;
+	margin-bottom: 0.5em;
+	position: relative;
+	padding-top: 1em;
+	margin-left: 196px;
+	text-align: left;
+	overflow: hidden;
+	height: 91px;
 }
 
 p {
-    font-weight: 400;
-    color: #f9b03d;
-    font-size: 14px;
-    position: relative;
-    left: 40px;
-    text-align: left;
+	font-weight: 400;
+	color: #f9b03d;
+	font-size: 14px;
+	position: relative;
+	left: 40px;
+	text-align: left;
 }
 
 article {
-    margin-left: 1em;
-    margin-right: 1em; 
-    height: 230px;
-    background-color: #e6e7e9;
-    margin-bottom: 2em;
-    text-align: right;
-    border-bottom: 2px solid #dee0e0;
+	margin-left: 1em;
+	margin-right: 1em;
+	height: 230px;
+	background-color: #e6e7e9;
+	margin-bottom: 2em;
+	text-align: right;
+	border-bottom: 2px solid #dee0e0;
 }
 
 
 article img {
-    height: 230px;
-    float: left;
+	height: 230px;
+	float: left;
 }
 
-
-
-
 #omhoog {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-    border: none;
-  z-index: 99;
-  font-size: 18px;
-  background-color: #f9b03d;
-  color: white;
-  padding: 10px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	border: none;
+	z-index: 99;
+	font-size: 18px;
+	background-color: #f9b03d;
+	color: white;
+	padding: 10px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
 
 }
 
 #omhoog:hover {
-  background-color: #555;
+	background-color: #555;
 }
 
 
 #meer {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
-    transition: ease-in 1s;
-    display: none;
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+	background-color: lightblue;
+	margin-top: 20px;
+	transition: ease-in 1s;
+	display: none;
 }

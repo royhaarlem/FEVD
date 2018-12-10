@@ -1,82 +1,86 @@
 var section = document.querySelector('section');
 
-var dataurl = 'https://royhaarlem.github.io/FEVD/datab.json';
-console.log("dataurl: "+ dataurl);
+var dataurl = 'https://royhaarlem.github.io/FEVD/opdracht3/v5%20kopie/datab.json';
+console.log("dataurl: " + dataurl);
 
 var datarequest = new XMLHttpRequest();
 datarequest.open('get', dataurl);
 datarequest.responseType = 'json';
 
 datarequest.send();
-datarequest.addEventListener('load',function(){
-    var Loadmovies = datarequest.response;
-        showFilms(Loadmovies);
+datarequest.addEventListener('load', function () {
+	var Loadmovies = datarequest.response;
+	showFilms(Loadmovies);
 });
-datarequest.addEventListener('error',function(){
-   console.log("we hebben een error");
+datarequest.addEventListener('error', function () {
+	console.log("we hebben een error");
 });
 
 
 
 function showFilms(jsonObj) {
-  var allfilms = jsonObj;
-    
-for (var i = 0; i < allfilms.length; i++) {
-  console.log("Titel:" + allfilms[i].title);
-    console.log("Genres:" + allfilms[i].genres);
-     console.log("Release date:" + allfilms[i].release_date);
-    console.log("Plot:" + allfilms[i].plot);
-    
-    var myArticle = document.createElement('article');
-    
-    var title = document.createElement('h2');
-    var datum = document.createElement('p');
-    var genre = document.createElement('p');
-    var image = document.createElement('img');
-    var simplot = document.createElement('h3');
-    
+	var allfilms = jsonObj;
+
+	for (var i = 0; i < allfilms.length; i++) {
+		console.log("Titel:" + allfilms[i].title);
+		console.log("Genres:" + allfilms[i].genres);
+		console.log("Release date:" + allfilms[i].release_date);
+		console.log("Plot:" + allfilms[i].plot);
+
+		var myArticle = document.createElement('article');
+
+		var title = document.createElement('h2');
+		var datum = document.createElement('p');
+		var genre = document.createElement('p');
+		var image = document.createElement('img');
+		var simplot = document.createElement('h3');
 
 
-    title.textContent = allfilms[i].title;
-    datum.textContent = allfilms[i].release_date;
-    genre.textContent = allfilms[i].genres;
-    simplot.textContent = allfilms[i].plot;
-    image.src = allfilms[i].cover;
- 
-    
-    myArticle.appendChild(image);
-    myArticle.appendChild(title);
-    myArticle.appendChild(datum);
-    myArticle.appendChild(genre);
-    
-    
-    myArticle.appendChild(simplot);
 
-    
+		title.textContent = allfilms[i].title;
+		datum.textContent = allfilms[i].release_date;
+		genre.textContent = allfilms[i].genres;
+		simplot.textContent = allfilms[i].plot;
+		image.src = allfilms[i].cover;
 
 
-    section.appendChild(myArticle); 
-    }
+		myArticle.appendChild(image);
+		myArticle.appendChild(title);
+		myArticle.appendChild(datum);
+		myArticle.appendChild(genre);
+
+
+		myArticle.appendChild(simplot);
+
+
+
+
+		section.appendChild(myArticle);
+	}
 }
 
 
 
 
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+	scrollFunction()
+};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 360 || document.documentElement.scrollTop > 360) {
-        document.getElementById("omhoog").style.display = "block";
-    } else {
-        document.getElementById("omhoog").style.display = "none";
-    }
-   
+	if (document.body.scrollTop > 360 || document.documentElement.scrollTop > 360) {
+		document.getElementById("omhoog").style.display = "block";
+	} else {
+		document.getElementById("omhoog").style.display = "none";
+	}
+
 }
 
 function topFunction() {
- 
-     $('html, body').animate({scrollTop:0}, 'slow');
+
+	$('html, body').animate({
+		scrollTop: 0
+	}, 'slow');
 }
 
 

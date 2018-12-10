@@ -278,6 +278,7 @@ p {
 article {
 	margin-left: 1em;
 	margin-right: 1em;
+	padding-right: 1em;
 	height: 230px;
 	background-color: #e6e7e9;
 	margin-bottom: 2em;

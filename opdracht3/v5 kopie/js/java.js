@@ -84,11 +84,10 @@ function topFunction() {
 }
 
 
+var header = $('#div');
 setTimeout(function () {
-	var myE2 = angular.element(document.querySelector('#loader'));
-	myE2.removeClass('loader');
+	header.removeClass('loader');
 }, 3000);
-
 
 /*
 oReq.addEventListener("load", reqListener);

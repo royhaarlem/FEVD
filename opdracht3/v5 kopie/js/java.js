@@ -86,7 +86,7 @@ function topFunction() {
 
 var div = ('#div');
 setTimeout(function () {
-	div.removeClass('loader');
+	('div').removeClass('loader');
 }, 3000);
 
 /*

@@ -329,7 +329,7 @@ article img {
 	background-color: black;
 	height: 1800px;
 	color: white;
-	position: relative;
+	position: absolute;
 }
 
 /* z-index meegeven zodat hij erop zit? */

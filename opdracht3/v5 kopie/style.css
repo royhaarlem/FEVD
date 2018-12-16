@@ -324,3 +324,12 @@ article img {
 	transition: ease-in 1s;
 	display: none;
 }
+
+.loader {
+	background-color: black;
+	height: 100%;
+}
+
+.loader p {
+	color: white;
+}

@@ -326,10 +326,14 @@ article img {
 }
 
 #loader {
-	background-color: black;
+	/*background-color: #f4f6f6; */
+	background-color: red;
+	padding-top: 8em;
 	height: 1736px;
-	width: 100%;
-	color: white;
+	width: 480px;
+	text-align: center;
+
+	color: #f9b03d;
 	position: absolute;
 	z-index: 101;
 }

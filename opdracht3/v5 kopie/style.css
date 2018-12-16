@@ -325,11 +325,8 @@ article img {
 	display: none;
 }
 
-.loader {
+#loader {
 	background-color: black;
 	height: 1736px;
-}
-
-.loader p {
 	color: white;
 }

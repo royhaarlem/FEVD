@@ -83,9 +83,13 @@ function topFunction() {
 	}, 'slow');
 }
 
+setTimeout(function () {
+	$('#loader').fadeOut('fast');
+}, 3000);
 
-var elem = document.getElementById("loader");
-elem.parentNode.removeChild(elem);
+
+/*var elem = document.getElementById("loader");
+elem.parentNode.removeChild(elem); //
 
 /*
 oReq.addEventListener("load", reqListener);

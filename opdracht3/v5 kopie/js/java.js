@@ -84,6 +84,11 @@ function topFunction() {
 }
 
 
+setTimeout(function () {
+	var myE2 = angular.element(document.querySelector('#loader'));
+	myE2.removeClass('loader');
+}, 3000);
+
 
 /*
 oReq.addEventListener("load", reqListener);

@@ -84,9 +84,9 @@ function topFunction() {
 }
 
 
-var header = ('#div');
+var div = ('#div');
 setTimeout(function () {
-	header.removeClass('loader');
+	div.removeClass('loader');
 }, 3000);
 
 /*

@@ -84,8 +84,8 @@ function topFunction() {
 }
 
 setTimeout(function () {
-	$('#loader').fadeOut('fast');
-}, 3000);
+	$('#loader').fadeOut('slow');
+}, 6000);
 
 
 /*var elem = document.getElementById("loader");

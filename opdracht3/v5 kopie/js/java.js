@@ -84,7 +84,7 @@ function topFunction() {
 }
 
 
-var header = $('#div');
+var header = ('#div');
 setTimeout(function () {
 	header.removeClass('loader');
 }, 3000);

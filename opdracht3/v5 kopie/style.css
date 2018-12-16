@@ -327,7 +327,8 @@ article img {
 
 #loader {
 	background-color: black;
-	height: 1800px;
+	height: 1736px;
+	width: 100%;
 	color: white;
 	position: absolute;
 	z-index: 101;

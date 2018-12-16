@@ -330,6 +330,7 @@ article img {
 	height: 1800px;
 	color: white;
 	position: absolute;
+	z-index: 101;
 }
 
 /* z-index meegeven zodat hij erop zit? */

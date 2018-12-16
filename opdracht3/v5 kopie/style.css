@@ -327,9 +327,9 @@ article img {
 
 #loader {
 	background-color: black;
-	height: 100vh;
+	height: 1800px;
 	color: white;
-	z-index: 200;
+	position: relative;
 }
 
 /* z-index meegeven zodat hij erop zit? */

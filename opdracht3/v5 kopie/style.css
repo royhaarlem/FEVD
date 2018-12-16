@@ -327,6 +327,6 @@ article img {
 
 #loader {
 	background-color: black;
-	height: 1736px;
+	height: 100vh;
 	color: white;
 }

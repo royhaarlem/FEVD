@@ -85,7 +85,7 @@ function topFunction() {
 
 setTimeout(function () {
 	$('#loader').fadeOut('slow');
-}, 6000);
+}, 5000);
 
 
 /*var elem = document.getElementById("loader");

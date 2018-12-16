@@ -84,10 +84,8 @@ function topFunction() {
 }
 
 
-var div = ('#div');
-setTimeout(function () {
-	('div').removeClass('loader');
-}, 3000);
+var elem = document.getElementById("loader");
+elem.parentNode.removeChild(elem);
 
 /*
 oReq.addEventListener("load", reqListener);

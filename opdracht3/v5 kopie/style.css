@@ -337,10 +337,10 @@ article img {
 
 #loader p {
 	text-align: center;
-	width: 480p;
 	text-transform: uppercase;
 	font-size: 1.2em;
 	color: #f9b03d;
+	left: 0;
 
 }
 

@@ -27,6 +27,7 @@ function showFilms(jsonObj) {
 		console.log("Release date:" + allfilms[i].release_date);
 		console.log("Plot:" + allfilms[i].plot);
 
+		/* added*/
 		console.log("Trailer:" + allfilms[i].vidtrailer);
 
 		var myArticle = document.createElement('article');
@@ -37,6 +38,9 @@ function showFilms(jsonObj) {
 		var image = document.createElement('img');
 		var simplot = document.createElement('h3');
 
+		/* added*/
+		var trailer = document.createElement('button');
+
 
 
 		title.textContent = allfilms[i].title;
@@ -45,6 +49,8 @@ function showFilms(jsonObj) {
 		simplot.textContent = allfilms[i].plot;
 		image.src = allfilms[i].cover;
 
+		/* added*/
+		trailer.src = allfilms[1].vidtrailer
 
 		myArticle.appendChild(image);
 		myArticle.appendChild(title);
@@ -54,6 +60,8 @@ function showFilms(jsonObj) {
 
 		myArticle.appendChild(simplot);
 
+		/* added*/
+		myArticle.appendChild(trailer);
 
 
 

@@ -11,7 +11,6 @@ datarequest.send();
 datarequest.addEventListener('load', function () {
 	var Loadmovies = datarequest.response;
 	showFilms(Loadmovies);
-	console.log("showFilms, Loadmovies");
 });
 datarequest.addEventListener('error', function () {
 	console.log("we hebben een error");
@@ -27,6 +26,8 @@ function showFilms(jsonObj) {
 		console.log("Genres:" + allfilms[i].genres);
 		console.log("Release date:" + allfilms[i].release_date);
 		console.log("Plot:" + allfilms[i].plot);
+
+		console.log("Trailer:" + allfilms[i].vidtrailer);
 
 		var myArticle = document.createElement('article');
 

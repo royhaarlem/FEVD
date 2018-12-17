@@ -344,14 +344,11 @@ article img {
 
 }
 
-.button {
-	background-color: red;
-	height: 50px;
-}
 
 button {
 	background-color: red;
 	height: 50px;
+	border-radius: 3px;
 }
 
 

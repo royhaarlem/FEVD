@@ -344,4 +344,15 @@ article img {
 
 }
 
+.button {
+	background-color: red;
+	height: 50px;
+}
+
+button {
+	background-color: red;
+	height: 50px;
+}
+
+
 /* z-index meegeven zodat hij erop zit? */

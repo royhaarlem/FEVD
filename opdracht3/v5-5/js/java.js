@@ -11,6 +11,7 @@ datarequest.send();
 datarequest.addEventListener('load', function () {
 	var Loadmovies = datarequest.response;
 	showFilms(Loadmovies);
+	console.log("showFilms, Loadmovies");
 });
 datarequest.addEventListener('error', function () {
 	console.log("we hebben een error");

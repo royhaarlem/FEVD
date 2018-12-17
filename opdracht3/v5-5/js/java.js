@@ -39,7 +39,7 @@ function showFilms(jsonObj) {
 		var simplot = document.createElement('h3');
 
 		/* added*/
-		var trailer = document.createElement('button');
+		var trailer = document.createElement('href');
 
 
 

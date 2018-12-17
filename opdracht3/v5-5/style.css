@@ -352,5 +352,11 @@ button {
 	width: 50px;
 }
 
+h6 {
+	color: red;
+	font-size 30px;
+	z-index: 120;
+}
+
 
 /* z-index meegeven zodat hij erop zit? */

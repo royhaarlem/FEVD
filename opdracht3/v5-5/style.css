@@ -277,7 +277,7 @@ p {
 }
 
 .datum {
-	background-color: pink;
+	color: black;
 }
 
 p.genre {
@@ -287,9 +287,9 @@ p.genre {
 
 p.genre:before {
 	content: "genre: ";
-	background: red;
+	background: none;
 	font-size: 1em;
-	font-style: italic;
+	font-style: bold;
 }
 
 a {

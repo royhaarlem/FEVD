@@ -277,24 +277,21 @@ p {
 }
 
 .datum {
-	color: black;
+	background-color: pink;
 }
 
-p.genre {
-	background-color: gold !important;
-	font-size: 2em;
-}
+p.genre {}
 
 p.genre:before {
 	content: "genre: ";
 	background: none;
 	font-size: 1em;
 	font-style: bold;
+	color: black;
 }
 
 a {
-
-	z-index: 100;
+	z-index: 250;
 }
 
 article {

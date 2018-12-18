@@ -280,6 +280,14 @@ p {
 	background-color: pink;
 }
 
+p.datum {
+	content: "genre: ";
+	background: none;
+	font-size: 1em;
+	font-style: bold;
+	color: black;
+}
+
 p.genre {}
 
 p.genre:before {

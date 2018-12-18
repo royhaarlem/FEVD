@@ -10,11 +10,12 @@ datarequest.responseType = 'json';
 datarequest.send();
 datarequest.addEventListener('load', function () {
 	var Loadmovies = datarequest.response;
+	console.log("Loadmovies", Loadmovies);
 	showFilms(Loadmovies);
 
 	setTimeout(function () {
 		$('#loader').fadeOut('slow');
-	}, 3000);
+	}, 1000);
 
 });
 datarequest.addEventListener('error', function () {
@@ -32,43 +33,33 @@ function showFilms(jsonObj) {
 		console.log("Release date:" + allfilms[i].release_date);
 		console.log("Plot:" + allfilms[i].plot);
 
-		/* added*/
-		console.log("Trailer:" + allfilms[i].vidtrailer);
-
 		var myArticle = document.createElement('article');
-
 		var title = document.createElement('h2');
 		var datum = document.createElement('p');
 		var genre = document.createElement('p');
 		var image = document.createElement('img');
 		var simplot = document.createElement('h3');
 
-		/* added*/
-		var trailer = document.createElement('h6');
-
-
-
 		title.textContent = allfilms[i].title;
 		datum.textContent = allfilms[i].release_date;
+		datum.setAttribute("class", "datum");
 		genre.textContent = allfilms[i].genres;
+		genre.setAttribute("class", "genre");
 		simplot.textContent = allfilms[i].plot;
 		image.src = allfilms[i].cover;
 
 		/* added*/
-		trailer.src = allfilms[1].vidtrailer
+		console.log("TRAILER !!!!:" + allfilms[i].vidtrailer);
+		var trailer = document.createElement('a');
+		trailer.setAttribute("href", allfilms[1].vidtrailer);
 
+		/* added*/
+		myArticle.appendChild(trailer);
 		myArticle.appendChild(image);
 		myArticle.appendChild(title);
 		myArticle.appendChild(datum);
 		myArticle.appendChild(genre);
-
-
 		myArticle.appendChild(simplot);
-
-		/* added*/
-		myArticle.appendChild(trailer);
-
-
 
 		section.appendChild(myArticle);
 	}

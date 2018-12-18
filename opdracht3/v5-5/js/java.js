@@ -52,7 +52,6 @@ function showFilms(jsonObj) {
 		console.log("TRAILER !!!!:" + allfilms[i].vidtrailer);
 		var trailer = document.createElement('a');
 		trailer.setAttribute("href", allfilms[1].vidtrailer);
-		trailer.setAttribute("class", "button");
 
 		/* added*/
 		myArticle.appendChild(trailer);

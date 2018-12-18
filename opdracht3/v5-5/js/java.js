@@ -11,6 +11,11 @@ datarequest.send();
 datarequest.addEventListener('load', function () {
 	var Loadmovies = datarequest.response;
 	showFilms(Loadmovies);
+
+	setTimeout(function () {
+		$('#loader').fadeOut('slow');
+	}, 3000);
+
 });
 datarequest.addEventListener('error', function () {
 	console.log("we hebben een error");
@@ -93,9 +98,7 @@ function topFunction() {
 	}, 'slow');
 }
 
-setTimeout(function () {
-	$('#loader').fadeOut('slow');
-}, 5000);
+
 
 
 /*var elem = document.getElementById("loader");

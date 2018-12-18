@@ -276,7 +276,6 @@ p {
 	text-align: left;
 }
 
-.datum {}
 
 p.datum:before {
 	content: "Release: ";
@@ -286,8 +285,6 @@ p.datum:before {
 	color: black;
 }
 
-p.genre {}
-
 p.genre:before {
 	content: "Genre: ";
 	background: none;
@@ -296,9 +293,6 @@ p.genre:before {
 	color: black;
 }
 
-a {
-	z-index: 250;
-}
 
 article {
 	margin-left: 1em;
@@ -381,6 +375,3 @@ h6 {
 	font-size 30px;
 	z-index: 120;
 }
-
-
-/* z-index meegeven zodat hij erop zit? */

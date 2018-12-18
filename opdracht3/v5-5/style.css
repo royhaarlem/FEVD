@@ -276,9 +276,7 @@ p {
 	text-align: left;
 }
 
-.datum {
-	background-color: pink;
-}
+.datum {}
 
 p.datum:before {
 	content: "Release: ";

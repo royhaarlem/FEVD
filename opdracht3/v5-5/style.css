@@ -295,6 +295,10 @@ p.genre:before {
 
 a:before {
 	content: "Watch trailer";
+	background-color: green;
+	height: 50px;
+	border-radius: 10px;
+	width: 50px;
 }
 
 article {

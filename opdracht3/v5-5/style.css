@@ -293,6 +293,9 @@ p.genre:before {
 	color: black;
 }
 
+a:before {
+	content: "Watch trailer";
+}
 
 article {
 	margin-left: 1em;

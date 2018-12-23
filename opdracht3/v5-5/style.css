@@ -131,6 +131,7 @@ a {
 	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
+	text-decoration: none;
 }
 
 /* change colours to suit your needs */
@@ -298,7 +299,9 @@ a:before {
 	background-color: #f9b03d;
 	text-align: center;
 	width: 30px;
-	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
 }
 
 article {

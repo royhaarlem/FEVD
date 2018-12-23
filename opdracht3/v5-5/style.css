@@ -294,12 +294,11 @@ p.genre:before {
 }
 
 a:before {
-	content: ">";
-	background-color: green;
-	height: 30px;
-	border-radius: 10px;
+	content: "Watch trailer";
+	background-color: #f9b03d;
+	text-align: center;
 	width: 30px;
-	margin: 20px;
+	margin: 5px;
 }
 
 article {

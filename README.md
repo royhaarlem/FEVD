@@ -29,3 +29,10 @@
 
 [Versie 6](https://royhaarlem.github.io/FEVD/opdracht3/v6/)
 
+## FINAL VERSION
+> Finally it's there! eindversie van de eind opdracht. Ontwerp werk zowel op desktop als op mobiel. Er kunnen trailers van films bekeken worden ( door het aanpassen van het json file), missende afbeeldingen uit het originele json file zijn ook gefixed.
+
+[Final version](https://royhaarlem.github.io/FEVD/opdracht3/v5-5/)
+
+
+

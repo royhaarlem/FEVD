@@ -32,9 +32,11 @@
 ## FINAL VERSION
 > Finally it's there! eindversie van de eind opdracht. Ontwerp werk zowel op desktop als op mobiel. Er kunnen trailers van films bekeken worden ( door het aanpassen van het json file), missende afbeeldingen uit het originele json file zijn ook gefixed. Er is een loader die werkt waardoor de gebruiker niet naar een leeg scherm hoeft te staren voordat er content is.
 
-04. Keep users in control: Er is gebruik gemaakt van een Pattern zoals, wanneer de gebruiker naar beneden scrolt en "snel" weer omhoog wilt er de button komt die dit mogelijk maakt door erop te klikken. Gebruiker kan gebruik maken van de watch trailer knop om de trailer direct te bekijken.
+04. Keep users in control: Gebruiker kan gebruik maken van de watch trailer knop om de trailer direct te bekijken.
 
-11. Strong visual hierarchies work best: Stronger gaat het niet worden.
+09. Appearance follows behavior: Er is gebruik gemaakt van een Pattern zoals, wanneer de gebruiker naar beneden scrolt en "snel" weer omhoog wilt er de button komt die dit mogelijk maakt door erop te klikken.
+
+11. Strong visual hierarchies work best: De elementen staan elke keer op dezelfde plek.
 
 [Final version](https://royhaarlem.github.io/FEVD/opdracht3/v5-5/)
 

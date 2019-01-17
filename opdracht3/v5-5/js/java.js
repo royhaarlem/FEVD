@@ -15,7 +15,7 @@ datarequest.addEventListener('load', function () {
 
 	setTimeout(function () {
 		$('#loader').fadeOut('slow');
-	}, 1000); /* na 1sec na inladen van de data gaat de loader weg, die zet een visibility none erop */
+	}, 5000); /* na 1sec na inladen van de data gaat de loader weg, die zet een visibility none erop */
 
 });
 datarequest.addEventListener('error', function () {

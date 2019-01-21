@@ -3,6 +3,13 @@
 ### OPDRACHT 1
 > Opdracht 1 is een pagina waarop je verschillende kamers kan zien die te huur zijn. Het ontwerp is voor mobiel.
 
+Er is bij versie 1 onder andere gekeken naar wat het meest relevante zou zijn wat je in het eerste opzicht wilt zien. Hierbij kwam naar boven: afbeelding van de kamer, wanneer het is geplaatst, prijs, hoeveel vierkante meter en natuurlijk de plek waar het ligt. Onder het Info icon wordt meer informatie getoond.
+
+Bij versie 2 zijn er kleine aanpassingen aan het uiterlijk gedaan, zo zijn de titels veranderd en is er aan de bovenkant een header toegevoegd om het wat “echter” te laten lijken.
+
+Bij versie 3 zijn de afbeeldingen aangepast, de prijzen en overige informatie. Dit om het gevoel van een “echte” website omhoog te brengen i.p.v. een test website met overal dezelfde content.
+
+
 [Versie 1](https://royhaarlem.github.io/FEVD/opdracht1/v1/)
 
 [Versie 2](https://royhaarlem.github.io/FEVD/opdracht1/v2/)

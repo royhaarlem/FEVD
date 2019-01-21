@@ -24,7 +24,20 @@ Ja opdracht 2… kan er helaas weinig anders van maken dat deze toch redelijk mi
 [Versie 1](https://royhaarlem.github.io/FEVD/opdracht2/v1/)
 
 ### OPDRACHT 3
-> Opdracht 3 is een pagina waar door middel van een json file data wordt getoond op de website. De website is gemaakt voor mobiel maar zou op tabblet ook niet slecht moeten zijn.
+> Opdracht 3 is een pagina waar door middel van een json file data wordt getoond op de website. 
+
+Versie 1, whats going on cowboy? Er wordt data opgehaald vanuit een extern json file door middel van XMLHttpRequest te gebruiken.
+
+Versie 2, vanuit het json file wordt een titel opgehaald, datum van wanneer de film is uitgebracht, het genre en de poster van de film wordt getoond. Verder is er geprobeerd om het geheel vorm te geven in vlakken.
+
+Versie 3, wereld van verschil met versie 2. Er is veel meer styling in de website gedaan waardoor het al meer een geheel lijkt. Titels zijn vormgegeven, er is een navbar toegevoegd (die overigens niks doet, just for the looks)
+
+Versie 4, hierbij is er nog een deel van het plot toegevoegd, wanneer de gebruiker de film niet kent kan hij hiermee achterhalen waar het verhaal over gaat (maar even tussen ons, if you doesnt know these movies, shame on you!) Wanneer de gebruiker naar beneden gaat komt er op magische wijze een button omhoog die ervoor zorgt dat je direct naar boven van de pagina gaat.
+
+Versie 5, ja, ik kan het verschil er niet uithalen met versie 4.
+
+Versie 6, ik dacht doe eens gek, andere kleuren combinatie… pakte alleen niet uit zoals ik wilden.  Op mobiel, als je naar beneden trekt “pull to refresh” komt er een kleine animatie tevoorschijn, echter doet deze niks.
+
 
 [Versie 1](https://royhaarlem.github.io/FEVD/opdracht3/v1/)
 
@@ -43,7 +56,7 @@ Ja opdracht 2… kan er helaas weinig anders van maken dat deze toch redelijk mi
 
 04. Keep users in control: Gebruiker kan gebruik maken van de watch trailer knop om de trailer direct te bekijken.
 
-09. Appearance follows behavior: Er is gebruik gemaakt van een Pattern zoals, wanneer de gebruiker naar beneden scrolt en "snel" weer omhoog wilt er de button komt die dit mogelijk maakt door erop te klikken.
+09. Appearance follows behavior: Er is gebruik gemaakt van een Pattern zoals, wanneer de gebruiker naar beneden scrolt en "snel" weer omhoog wilt er de button komt die dit mogelijk maakt door erop te klikken. (https://www.nngroup.com/articles/back-to-top/)
 
 11. Strong visual hierarchies work best: De elementen staan elke keer op dezelfde plek.
 

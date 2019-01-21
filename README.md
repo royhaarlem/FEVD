@@ -19,6 +19,8 @@ Bij versie 3 zijn de afbeeldingen aangepast, de prijzen en overige informatie. D
 ### OPDRACHT 2
 > Opdracht 2 moest een carousel voorstellen.
 
+Ja opdracht 2… kan er helaas weinig anders van maken dat deze toch redelijk mislukt is. 
+
 [Versie 1](https://royhaarlem.github.io/FEVD/opdracht2/v1/)
 
 ### OPDRACHT 3
@@ -36,7 +38,7 @@ Bij versie 3 zijn de afbeeldingen aangepast, de prijzen en overige informatie. D
 
 [Versie 6](https://royhaarlem.github.io/FEVD/opdracht3/v6/)
 
-## FINAL VERSION
+## FINAL VERSION ( van opdracht 3 )
 > Finally it's there! eindversie van de eind opdracht. Ontwerp werk zowel op desktop als op mobiel. Er kunnen trailers van films bekeken worden ( door het aanpassen van het json file), missende afbeeldingen uit het originele json file zijn ook gefixed. Er is een loader die werkt waardoor de gebruiker niet naar een leeg scherm hoeft te staren voordat er content is.
 
 04. Keep users in control: Gebruiker kan gebruik maken van de watch trailer knop om de trailer direct te bekijken.
